@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="style.css">
+        <link rel = "stylesheet" href = 'mainpage.html'>
+        <script>
+            //function used to send to main screen when blue is picked
+            function sendToMainScreenBlue(){
+                document.getElementById("blue").onclick = function () {
+                location.href = "mainpage.html?color=blue";
+    };
+                
+            }
+            //function used to send to main screen when red is picked
+            function sendToMainScreenRed(){
+                document.getElementById("red").onclick = function () {
+                location.href = "mainpage.html?color=red";
+    };
+            }
+            //function used to send to main screen when pink is picked
+            function sendToMainScreenPink(){
+                document.getElementById("pink").onclick = function () {
+                location.href = "mainpage.html?color=pink";
+    };
+            }
+        </script>
+    </head>
+    <body class = "gradientcolor1">
+        <center><h1>Shop Screen</h1>
+        <h2>Special Background Upgrades</h2>
+        <br><br>
+        <!--All buttons below are to change and purcahse the backgrounds-->
+        <input type = "button" style = "font-size: x-large;" value = "Purchase: Background Blue" class= "color-blue" onclick = sendToMainScreenBlue() id = "blue"></input>
+        <input type = "button" style = "font-size: x-large;" value = "Purchase: Background Pink" class= "color-pink" onclick = sendToMainScreenPink() id = "pink"></input>
+        <input type = "button" style = "font-size: x-large;" value = "Purchase: Background Red" class = "color-red" onclick=sendToMainScreenRed() id = "red"></input></center>
+        <br><center><label style = "font-size: x-large; font-style: italic;">Double click to confirm purchase.</label></center>
+    </body>
+</html>

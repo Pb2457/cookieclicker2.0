@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.type1{
+    width: 20%;
+    height:  30%;
+    display: block;
+    margin: 100px auto;
+}
+.type2{
+    margin: 40px;
+}
+.gradientcolor{
+    background-image: linear-gradient(to top, #fcba03 0%, #35e0e6 100%);
+    padding-bottom: 480px;
+}
+.specialcursive{
+    font-family: 'Lobster', cursive;
+}
+.setsizeofcounter{
+    font-family: 'Bebas Neue', cursive;
+}
+#thecookie { 
+    cursor: pointer;
+    position: absolute; 
+    top:400px; 
+    right: 750px; 
+    transition: all 0.8s;
+  }
+.gradientcolor1{
+    background-image: linear-gradient(to top, #bce0a4 0%, #cf948c 100%);
+    padding-bottom: 880px;
+}
+.color-blue{
+    background-color:blue;
+}
+.color-red{
+    background-color:red;
+}
+.color-pink{
+    background-color:pink;
+}
+.backgroundimage{
+    background-image: url('winner.png');
+}
+.battlepicture{
+    background-image: url('battle.jpg')
+}

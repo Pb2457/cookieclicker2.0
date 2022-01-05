@@ -1,0 +1,32 @@
+.backgroundcolor{
+    background-color: tomato;
+}
+.backgroundcolor1{
+    background-color:white;
+}
+.gradientcolors{
+    background-image: linear-gradient(to top, #041f52f6 0%, #13b9be 100%);
+    padding-bottom: 880px;
+}
+
+input[type="text"]{
+    padding: 8px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
+}
+input[type=text]:focus {
+    background-color: #b1a994;
+    border-color: #000;
+  }
+  input[type=password]:focus {
+    background-color: #b1a994;
+    border-color: #000;
+  }
+input[type="password"]{
+    padding: 8px;
+    border-radius: 50px;
+    text-align: center;
+
+}

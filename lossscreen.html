@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"><title>Loss Screen</title></head>
+    <script>
+        function playAgain(){
+            window.open('mainpage.html', '_self')
+        }
+        
+    </script>
+    <style>
+        .thefont{
+            font-family: 'Anton', sans-serif;
+            color:rgb(0, 0, 0);
+            font-size: 75px;
+            font-style: italic;
+
+        }
+    </style>
+    <body style = "background-image: url('youlost.png');">
+        <center><h1 class = "thefont">You lost!</h1>
+        <input type = "button" style = "background-color: dimgray; color:white; font-size: 30px;" onclick = playAgain() value = "Click here to play again!"></center>
+    </body>
+</html>
